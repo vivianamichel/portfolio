@@ -1,0 +1,29 @@
+.grid {
+    margin-left:15%;
+    margin-top:1%;
+}
+
+button {
+    background-color: white; 
+    color: black;
+    font-family: "Gill Sans", sans-serif;
+    margin-left:1%;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 40%;
+    border-radius: 8px;
+}
+
+.thebuttons{
+    margin-left:14%;
+}
+
+.thebuttons1{
+    margin-left:16%;
+}
+.thebuttons2{
+    margin-left:55%;
+}

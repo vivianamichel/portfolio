@@ -1,0 +1,211 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  background-color: black;
+  font-family: "Gill Sans", sans-serif;
+  color:white;
+}
+
+
+#profilepic{
+  padding-right: 4%;
+  opacity: 80%;
+}
+
+#mediumtext{
+  color: #adb5bd;
+  font-size: 27px;
+  padding-top: 5%;
+  padding-left: 8%;
+}
+
+#largetext{
+  font-size: 52px;
+  padding-top: 3%;
+  padding-left: 8%;
+  font-weight: 650;
+}
+#smalltext{
+  color: #6c757d;
+  font-size: 22px;
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-bottom: 5%;
+}
+#header{
+  float: left;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav ul li {
+  float: right;
+  padding: 15px;
+  font-family: "Gill Sans", sans-serif;
+  color: white;
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400;
+}
+
+nav ul li a {
+  float: right;
+  color: #89b0ae;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 18px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.home {
+  padding-top: 15px;
+  font-family: "Gill Sans", sans-serif;
+  background-color: black;
+}
+
+#mylanguages{
+  background-color: white;
+  color: black;
+  padding-left: 8%;
+  font-size: 30px;
+  padding-top: 3%; 
+  padding-bottom: 3%;
+}
+
+#languagetext{
+  padding-left: 5%;
+  font-size: 25px;
+  padding-top: 2%;
+}
+
+#myframeworks{
+  background-color: grey;
+  color: white;
+  padding-left: 8%;
+  font-size: 28px;
+  padding-top: 3%; 
+  padding-bottom: 3%;
+}
+
+#frameworktext{
+  padding-left: 5%;
+  font-size: 25px;
+  padding-top: 2%;
+}
+
+#JavaProgress {
+  float: right;
+  width:50%;
+  margin-right: 5%;
+  background-color: grey;
+}
+#JavaBar {
+  width: 95%;
+  height: 30px;
+  background-color: #89b0ae;
+}
+#PythonProgress {
+  float: right;
+  width:50%;
+  margin-right: 5%;
+  background-color: grey;
+}
+#PythonBar {
+  width: 87%;
+  height: 30px;
+  background-color: #89b0ae;
+}
+#jstsProgress {
+  float: right;
+  width:50%;
+  margin-right: 5%;
+  background-color: grey;
+}
+#jstsBar {
+  width: 80%;
+  height: 30px;
+  background-color: #89b0ae;
+}
+#HTMLProgress {
+  float: right;
+  width:50%;
+  margin-right: 5%;
+  background-color: grey;
+}
+#HTMLBar {
+  width: 75%;
+  height: 30px;
+  background-color: #89b0ae;
+}
+#CSSProgress {
+  float: right;
+  width:50%;
+  margin-right: 5%;
+  background-color: grey;
+}
+#CSSBar {
+  width: 80%;
+  height: 30px;
+  background-color: #89b0ae;
+}
+#SQLProgress {
+  float: right;
+  width:50%;
+  margin-right: 5%;
+  background-color: grey;
+}
+#SQLBar {
+  width: 90%;
+  height: 30px;
+  background-color: #89b0ae;
+}
+.current {
+  border-bottom: 4px solid white;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+.contact{
+  background-color: white;
+}
+.projects{
+  background-color: white;
+  color: black;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-size: 35px;
+  padding-top: 3%; 
+  padding-bottom: 3%;
+}
+
+#smallptext{
+  font-size: 20px;
+  padding-top: 1%; 
+  padding-left: 1%;
+  padding-bottom: 2%;
+}
+
+.Card.Title{
+  font-family: "Gill Sans", sans-serif;
+}
