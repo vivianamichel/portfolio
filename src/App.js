@@ -33,7 +33,7 @@ const Navigation = () => (
       <li><NavLink exact activeClassName="current" to='/projects'>PROJECTS</NavLink></li>
       <li><a rel="noopener noreferrer" href="https://berkeley.box.com/s/nuqyhd0xjisz8hxpsv51emyr4mkpmgw7" target="_blank">MY CV</a></li>
       {/* <li><NavLink exact activeClassName="current" to='/cv'>MY CV</NavLink></li> */}
-      <li><NavLink exact activeClassName="current" to='/home'>HOME</NavLink></li>
+      <li><NavLink exact activeClassName="current" to='/portfolio'>HOME</NavLink></li>
     </ul>
   </nav>
 );
@@ -210,7 +210,7 @@ const PathFinder = () => (
 
 const Main = () => (
   <Switch>
-    <Route exact path='/home' component={Home}></Route>
+    <Route exact path='/portfolio' component={Home}></Route>
     <Route exact path='/projects' component={PROJECTS}></Route>
     <Route exact path='/pathfinder' component={PathFinder}></Route>
     <Route exact path='/contact' component={Contact}></Route>
